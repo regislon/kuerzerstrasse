@@ -1420,7 +1420,13 @@ class OurSimpleHTTPRequestHandler(SimpleHTTPRequestHandler):
         if option_name in GRAPH_DATA_REQ:
             self.send_response(200)
             self.end_headers()
-            file_path = f"api/mp/models/graph_{option_name}.json"
+            # Prefer the .modified.json: it has validUntil dates rewritten to 2099 (via
+            # validUntilFix) and URL templates pointed at the local server. Serving the
+            # original would make the showcase think the data has expired and retry forever
+            # (visible as a stuck loading spinner on operations like GetModelAssets and
+            # GetShowcaseSweeps that contain hundreds of validUntil fields).
+            modified_path = f"api/mp/models/graph_{option_name}.modified.json"
+            file_path = modified_path if os.path.exists(modified_path) else f"api/mp/models/graph_{option_name}.json"
             if os.path.exists(file_path):
                 with open(file_path, "r", encoding="UTF-8") as f:
                     self.wfile.write(f.read().encode("utf-8"))
