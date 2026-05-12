@@ -2,15 +2,22 @@
 
 The server is already running at http://127.0.0.1:8765/ — open it in your browser.
 
-For future sessions, the command is:
+For future sessions, from the project root:
 
 ```bash
-/opt/homebrew/bin/python3.12 /Users/regislon/Documents/Projects/matterport-dl/run.py \
-    --base-folder /Users/regislon/Documents/Projects/matterport-dl/downloads \
-    NRvU2vkTCXn 127.0.0.1 8765
+cd /Users/regislon/Documents/Projects/matterport-dl
+uv run matterport-dl.py NRvU2vkTCXn 127.0.0.1 8765
 ```
 
 Then visit http://127.0.0.1:8765/
+
+To re-download (or update) the tour, add the password:
+
+```bash
+MATTERPORT_PASSWORD=Port26 uv run matterport-dl.py "https://my.matterport.com/show/?m=NRvU2vkTCXn"
+```
+
+`uv` reads the inline PEP 723 metadata at the top of `matterport-dl.py`, downloads Python 3.12 and the deps automatically, and caches everything — no manual venv setup needed.
 
 ---
 

@@ -1,5 +1,17 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
 # ruff: noqa: E722
+
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#   "requests",
+#   "tqdm",
+#   "curl-cffi==0.7.1",
+#   "aiofiles",
+#   "Pillow",
+#   "pyreadline3 ; platform_system == 'Windows'",
+# ]
+# ///
 
 """
 Downloads virtual tours from matterport.
