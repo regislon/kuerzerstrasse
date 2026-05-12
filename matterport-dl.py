@@ -24,6 +24,7 @@ import platform
 
 import shutil
 import sys
+import time
 from typing import Any, ClassVar, cast
 from dataclasses import dataclass
 
@@ -300,12 +301,29 @@ async def downloadFile(type, shouldExist, url, file, post_data=None, always_down
         reqId = logUrlDownloadStart(type, file, url, "", shouldExist, key_type=key_type)
         try:
             response = await OUR_SESSION.get(url)
-            response.raise_for_status()  # Raise an exception if the response has an error status code
+            # Matterport returns 401 on the main /show/?m=... page even when the body is the full
+            # showcase shell (whether or not we're authenticated). Treat that specific case as OK.
+            if not (type == "MAIN" and response.status_code == 401 and b"static.matterport.com/showcase" in response.content):
+                response.raise_for_status()  # Raise an exception if the response has an error status code
             async with aiofiles.open(file, "wb") as f:
                 await f.write(response.content)
             logUrlDownloadFinish(type, file, url, "", shouldExist, reqId)
             return
         except Exception as err:
+            # 410 on a signed asset URL means the embedded key has aged out. Refetch a fresh key
+            # and retry once with the URL rewritten against the new PrimaryKey.
+            if "Error 410" in f"{err}" and "?t=" in url and key_type in (AccessKeyType.PrimaryKey, None):
+                if await refreshPrimaryAccessKey():
+                    new_url = KeyHandler.SetAccessKeyForUrl(url, KeyHandler.PrimaryKey)
+                    try:
+                        response = await OUR_SESSION.get(new_url)
+                        response.raise_for_status()
+                        async with aiofiles.open(file, "wb") as f:
+                            await f.write(response.content)
+                        logUrlDownloadFinish(type, file, new_url, "", shouldExist, reqId)
+                        return
+                    except Exception as err_retry:
+                        err = err_retry
             # Try again but with different accesskeys, if error is 404 though no need to retry
             if "?t=" in url and "Error 404" not in f"{err}":
                 if False:  # disable brute forcing at a minimum probably shouldnt do getallkeys just primary
@@ -539,62 +557,67 @@ async def downloadAssets(base, base_page_text):
     await downloadFile("STATIC_ASSET", True, "https://matterport.com/nextjs-assets/images/favicon.ico", "favicon.ico")  # mainly to avoid the 404, always matterport.com
     showcase_cont = await downloadFileAndGetText(typeDict[showcase_runtime_filename], True, base + showcase_runtime_filename, showcase_runtime_filename, always_download=CLA.getCommandLineArg(CommandLineArg.REFRESH_KEY_FILES))
 
-    # lets try to extract the js files it might be loading and make sure we know them, the code has things like .e(858)  ot load which are the numbers we care about
-    # js_extracted = re.findall(r"\.e\(([0-9]{2,3})\)", showcase_cont)
-    # here is how the JS is prettied up (aka with spaces).  First are JS files with specific names, second are the js files to key, and finally are the css files.   The js files with specific names you still need the key for just instead of [number].[key].js it is [name].[key].js
-    # , d.u = e => "js/" + ({
-    #     239: "three-examples",
-    #     777: "split",
-    #     1662: "sdk-bundle",
-    #     9114: "core",
-    #     9553: "control-kit"
-    # } [e] || e) + "." + {
-    #     172: "6c50ed8e5ff7620de75b",
-    #     9553: "8aa28bbfc8f4948fd4d1",
-    #     9589: "dc4901b493f7634edbcf",
-    #     9860: "976dc6caac98abda24c9"
-    # } [e] + ".js", d.miniCssF = e => "css/" + ({
-    #     7475: "late",
-    #     9114: "core"
-    # } [e] || e) + ".css"
-
+    # The modern showcase build no longer embeds a per-chunk content-hash in filenames.
+    # Two helper dicts in the runtime map chunk-id -> friendly name (for JS and CSS):
+    #   l.u=e=>"js/"+({239:"three-examples",777:"split",...}[e]||e)+".js"
+    #   l.miniCssF=e=>"css/"+({5385:"init",7475:"late",...}[e]||e)+".css"
+    # The chunk IDs themselves are referenced via webpack's .e(N) dynamic-import calls in the
+    # main showcase bundle, so we discover the full set by scanning that bundle.
     match = re.search(
-        r"""
-                "js/"\+ # find js/+  (literal plus)
-                (?P<namedJSFiles>[^\[]+) #capture everything until the first [ character store in group namedJSFiles
-                (?P<JSFileToKey>.+?) #least greedy capture, so capture the minimum amount to make this regex still true
-                css #stopping when we see the css
-                (?P<namedCSSFiles>[^\[]+) #similar to before capture to first [
-                .+? #skip the minimum amount to get to next part
-                miniCss=.+? #find miniCss= then skip minimum to first &&
-                &&
-                (?P<CSSFileToKey>.+?) #capture minimum until we get to next &&
-                &&
-              """,
+        r'"js/"\+\((?P<namedJSFiles>\{[^}]*\})\[e\]\|\|e\)\+"\.js".+?'
+        r'"css/"\+\((?P<namedCSSFiles>\{[^}]*\})\[e\]\|\|e\)\+"\.css"',
         showcase_cont,
-        re.X,
     )
     if match is None:
-        raise Exception("Unable to extract js files and css files from showcase runtime js file")
-    groupDict = match.groupdict()
-    jsNamedDict = extractJSDict("showcase-runtime.js: namedJSFiles", groupDict["namedJSFiles"])
-    jsKeyDict = extractJSDict("showcase-runtime.js: JSFileToKey", groupDict["JSFileToKey"])
-    cssNamedDict = extractJSDict("showcase-runtime.js: namedCSSFiles", groupDict["namedCSSFiles"])
-    cssKeyDict = extractJSDict("showcase-runtime.js: CSSFileToKey", groupDict["CSSFileToKey"])
+        raise Exception("Unable to extract js/css filename generators from showcase runtime js file")
+    jsNamedDict = extractJSDict("showcase-runtime.js: namedJSFiles", match.group("namedJSFiles"))
+    cssNamedDict = extractJSDict("showcase-runtime.js: namedCSSFiles", match.group("namedCSSFiles"))
 
-    for number, key in jsKeyDict.items():
-        name = number
-        if name in jsNamedDict:
-            name = jsNamedDict[name]
-        file = f"js/{name}.{key}.js"
+    # Scan every top-level JS bundle for chunk IDs it might dynamically import. Webpack
+    # references chunks in two main shapes:
+    #   1. .e(N)         — explicit dynamic-import calls
+    #   2. [modId, N]    — module-map entries where N is the chunk needed for that module
+    # We need both forms: showcase.js mostly uses (1), but init.js's logo/i18n loaders use (2)
+    # so chunks like 8249 / 2622 would otherwise be missed.
+    js_chunk_ids: set[str] = set(jsNamedDict.keys())
+    def harvest_chunks(text: str) -> set[str]:
+        return set(re.findall(r"\.e\((\d{2,5})\)", text)) | set(re.findall(r"\[\d+,(\d{2,5})\]", text))
+    js_chunk_ids.update(harvest_chunks(showcase_cont))  # runtime~showcase.js
+    bundles_to_scan: list[str] = []
+    if MAIN_SHOWCASE_FILENAME and MAIN_SHOWCASE_FILENAME not in bundles_to_scan:
+        bundles_to_scan.append(MAIN_SHOWCASE_FILENAME)
+    for js in base_page_js_loads:
+        # skip remote URLs and the runtime we already have in showcase_cont
+        if "://" in js or js == showcase_runtime_filename or js in bundles_to_scan:
+            continue
+        bundles_to_scan.append(js)
+    # Named chunks (e.g. init, core, sdk-bundle) aren't in the page's <script> tags but are
+    # lazy-loaded by the runtime and themselves reference further chunks (init.js loads 8249,
+    # showcase.js loads 2622, etc.). Scan them too.
+    for chunk_id, chunk_name in jsNamedDict.items():
+        named_js = f"js/{chunk_name}.js"
+        if named_js not in bundles_to_scan:
+            bundles_to_scan.append(named_js)
+    for js in bundles_to_scan:
+        bundle_cont = await downloadFileAndGetText(typeDict.get(js, "SHOWCASE_DISCOVERED_JS"), True, base + js, js, always_download=CLA.getCommandLineArg(CommandLineArg.REFRESH_KEY_FILES))
+        js_chunk_ids.update(harvest_chunks(bundle_cont))
+
+    for chunk_id in js_chunk_ids:
+        name = jsNamedDict.get(chunk_id, chunk_id)
+        file = f"js/{name}.js"
         typeDict[file] = "SHOWCASE_DISCOVERED_JS"
         assets.append(file)
 
-    for number, key in cssKeyDict.items():
-        name = number
-        if name in cssNamedDict:
-            name = cssNamedDict[name]
-        file = f"css/{name}.css"  # key is not used for css its just 1 always
+    # CSS sidecars only exist for the chunks listed in webpack's `chunksWithCss` map, which
+    # appears inside `l.f.miniCss=(r,o)=>{...{229:1,4012:1,...}[r]&&...}`. Use it to enumerate
+    # CSS files precisely — trying every JS chunk would 404 on most and abort the download.
+    css_chunk_ids: set[str] = set(cssNamedDict.keys())
+    css_map_match = re.search(r"&&(\{[^}]+\})\[r\]&&", showcase_cont)
+    if css_map_match:
+        css_chunk_ids.update(extractJSDict("showcase-runtime.js: chunksWithCss", css_map_match.group(1)).keys())
+    for chunk_id in css_chunk_ids:
+        name = cssNamedDict.get(chunk_id, chunk_id)
+        file = f"css/{name}.css"
         typeDict[file] = "SHOWCASE_DISCOVERED_CSS"
         assets.append(file)
 
@@ -865,8 +888,13 @@ async def downloadCapture(pageid):
         logging.getLogger().addHandler(logging.StreamHandler())
     consoleLog(f"Started up a download run {sys_info()}")
 
+    global CURRENT_PAGE_ID
+    CURRENT_PAGE_ID = pageid
     url = f"https://my.{BASE_MATTERPORT_DOMAIN}/show/?m={pageid}"
     consoleLog(f"Downloading capture of {pageid} with base page... {url}")
+    password = CLA.getCommandLineArg(CommandLineArg.PASSWORD)
+    if password:
+        await authenticatePasswordProtectedModel(pageid, password)
     base_page_text = ""
     try:
         base_page_text: str = await downloadFileAndGetText("MAIN", True, url, "index.html", always_download=CLA.getCommandLineArg(CommandLineArg.REFRESH_KEY_FILES))
@@ -1437,10 +1465,73 @@ OUR_SESSION: requests.AsyncSession
 MAX_TASKS_SEMAPHORE = asyncio.Semaphore(MAX_CONCURRENT_TASKS)
 RUN_ARGS_CONFIG_NAME = "run_args.json"
 
+# Matterport asset URLs are signed with a ~30-minute TTL. On long downloads the back of the
+# queue expires and 410s — track the current model id + a debounced refresh lock so we can
+# re-issue a fresh key when that happens.
+CURRENT_PAGE_ID: str = ""
+KEY_REFRESH_LOCK = asyncio.Lock()
+KEY_REFRESH_LAST: float = 0.0
+KEY_REFRESH_MIN_INTERVAL = 5.0  # seconds — coalesce concurrent failures into one refetch
+
 
 def SetupSession(use_proxy):
     global OUR_SESSION, MAX_CONCURRENT_REQUESTS, BASE_MATTERPORT_DOMAIN
     OUR_SESSION = requests.AsyncSession(impersonate="chrome", max_clients=MAX_CONCURRENT_REQUESTS, verify=CLA.getCommandLineArg(CommandLineArg.VERIFY_SSL), proxies=({"http": use_proxy, "https": use_proxy} if use_proxy else None), headers={"Referer": f"https://my.{BASE_MATTERPORT_DOMAIN}/", "x-matterport-application-name": "showcase"})
+
+
+async def authenticatePasswordProtectedModel(pageid: str, password: str):
+    # Exchange the tour password for an access token, then attach it to OUR_SESSION as the
+    # Authorization header used for every subsequent request.
+    global OUR_SESSION
+    url = f"https://my.{BASE_MATTERPORT_DOMAIN}/api/v2/models/{pageid}/public-access/"
+    resp = await OUR_SESSION.post(url, json={"password": password})
+    if resp.status_code != 200:
+        raise Exception(f"Password handshake failed for {pageid}: HTTP {resp.status_code} body={resp.text[:200]!r}")
+    try:
+        token = resp.json()["token"]
+    except Exception as e:
+        raise Exception(f"Unexpected password handshake response (no token field): body={resp.text[:200]!r}") from e
+    OUR_SESSION.headers["Authorization"] = f"Matterport-Object-Access {token}"
+    consoleLog(f"Authenticated password-protected model {pageid}")
+
+
+async def refreshPrimaryAccessKey() -> bool:
+    """Re-fetch GetModelPrefetch and harvest a fresh primary access key.
+
+    Asset URLs embed a signed key with a short TTL; without this the back end of
+    a long download 410s once the original keys age out. downloadFile rewrites
+    URLs against KeyHandler.PrimaryKey on every request, so updating it here is
+    enough to make subsequent retries work.
+    """
+    global KEY_REFRESH_LAST
+    if not CURRENT_PAGE_ID:
+        return False
+    async with KEY_REFRESH_LOCK:
+        if time.time() - KEY_REFRESH_LAST < KEY_REFRESH_MIN_INTERVAL:
+            return True  # another caller just refreshed
+        prefetch_url = (
+            f"https://my.{BASE_MATTERPORT_DOMAIN}/api/mp/models/graph"
+            f"?operationName=GetModelPrefetch&variables=%7B%22modelId%22%3A%22{CURRENT_PAGE_ID}%22%7D"
+            f"&extensions=%7B%22persistedQuery%22%3A%7B%22version%22%3A1%2C%22sha256Hash%22%3A%22287c4d27f0eac1a7020f087d871281504992145fc560f873b2d0d49e4b262e32%22%7D%7D"
+        )
+        try:
+            r = await OUR_SESSION.get(prefetch_url)
+            if r.status_code != 200:
+                return False
+            data = r.json()
+            url_template = data["data"]["model"]["assets"]["textures"][0]["urlTemplate"]
+            keys = KeyHandler.GetKeysFromStr(url_template)
+            if not keys:
+                return False
+            KeyHandler.SetAccessKey(AccessKeyType.MAIN_PAGE_GENERIC_KEY, keys[0])
+            # The response also has fresh keys for skyboxes, dam files, etc.; harvest them all.
+            KeyHandler.SaveKeysFromText("KeyRefresh", r.text)
+            KEY_REFRESH_LAST = time.time()
+            consoleDebugLog("Refreshed primary access key after asset URL expiry")
+            return True
+        except Exception as e:
+            consoleDebugLog(f"Failed to refresh access key: {e}")
+            return False
 
 
 def RegisterWindowsBrowsers():
@@ -1619,7 +1710,7 @@ class KeyHandler:
         return url.replace(match.group(0), key_val)
 
 
-CommandLineArg = Enum("CommandLineArg", ["ADVANCED_DOWNLOAD", "PROXY", "VERIFY_SSL", "DEBUG", "CONSOLE_LOG", "TILDE", "BASE_FOLDER", "ALIAS", "DOWNLOAD", "MAIN_ASSET_DOWNLOAD", "MANUAL_HOST_REPLACEMENT", "ALWAYS_DOWNLOAD_GRAPH_REQS", "QUIET", "HELP", "ADV_HELP", "AUTO_SERVE", "FIND_URL_KEY", "FIND_URL_KEY_AND_DOWNLOAD", "REFRESH_KEY_FILES", "GENERATE_TILE_MESH_CROPS", "TITLE"])
+CommandLineArg = Enum("CommandLineArg", ["ADVANCED_DOWNLOAD", "PROXY", "VERIFY_SSL", "DEBUG", "CONSOLE_LOG", "TILDE", "BASE_FOLDER", "ALIAS", "DOWNLOAD", "MAIN_ASSET_DOWNLOAD", "MANUAL_HOST_REPLACEMENT", "ALWAYS_DOWNLOAD_GRAPH_REQS", "QUIET", "HELP", "ADV_HELP", "AUTO_SERVE", "FIND_URL_KEY", "FIND_URL_KEY_AND_DOWNLOAD", "REFRESH_KEY_FILES", "GENERATE_TILE_MESH_CROPS", "TITLE", "PASSWORD"])
 ArgAppliesTo = Enum("ArgAppliesTo", ["DOWNLOAD", "SERVING", "BOTH"])
 
 
@@ -1740,6 +1831,7 @@ DEFAULTS_JSON_FILE = "defaults.json"
 def main():
     CLA.addCommandLineArg(CommandLineArg.BASE_FOLDER, "folder to store downloaded models in (or serve from)", "./downloads", itemValueHelpDisplay="dir", allow_saved=False, applies_to=ArgAppliesTo.BOTH)
     CLA.addCommandLineArg(CommandLineArg.PROXY, "using web proxy specified for all requests, use --no-verify-ssl to disable ssl verification", "", "127.0.0.1:8866", allow_saved=False)
+    CLA.addCommandLineArg(CommandLineArg.PASSWORD, "password for protected models; also read from MATTERPORT_PASSWORD env var if not given", os.environ.get("MATTERPORT_PASSWORD", ""), itemValueHelpDisplay="pass", allow_saved=False)
     CLA.addCommandLineArg(CommandLineArg.TILDE, "allowing tildes on file paths, likely must be disabled for Apple/Linux, you must use the same option during the capture and serving", sys.platform == "win32")
     CLA.addCommandLineArg(CommandLineArg.ALIAS, "create an alias symlink for the download with this name, does not override any existing (can be used when serving)", "", itemValueHelpDisplay="name")
     CLA.addCommandLineArg(CommandLineArg.ADVANCED_DOWNLOAD, "downloading advanced assets enables things like skyboxes, dollhouse, floorplan layouts, now primary access keys come from it so generally required", True)
