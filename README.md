@@ -1,3 +1,19 @@
+# Kürzestr — local serve
+
+The server is already running at http://127.0.0.1:8765/ — open it in your browser.
+
+For future sessions, the command is:
+
+```bash
+/opt/homebrew/bin/python3.12 /Users/regislon/Documents/Projects/matterport-dl/run.py \
+    --base-folder /Users/regislon/Documents/Projects/matterport-dl/downloads \
+    NRvU2vkTCXn 127.0.0.1 8765
+```
+
+Then visit http://127.0.0.1:8765/
+
+---
+
 # matterport-dl
 A tool to download/archive [Matterport](https://matterport.com) digital twin virtual tours.  Supports most matterport virtual tour links ( ie https://my.matterport.com/show/?m=roWLLMMmPL8 ). This project is not in any way associated with or supported by Matterport Inc in any way all relevant trademarks and rights are reserve Matterport Inc.
 
