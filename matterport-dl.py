@@ -358,7 +358,14 @@ async def downloadFile(type, shouldExist, url, file, post_data=None, always_down
 
 
 def validUntilFix(text):
-    return re.sub(r"validUntil\"\s*:\s*\"20[\d]{2}-[\d]{2}-[\d]{2}T", 'validUntil":"2099-01-01T', text)
+    # Plain JSON form (in .modified.json files).
+    text = re.sub(r'"validUntil"\s*:\s*"20\d{2}-\d{2}-\d{2}T', '"validUntil":"2099-01-01T', text)
+    # Backslash-escaped form: prefetched GraphQL data inside index.html / showcase.js is
+    # embedded as a JSON string literal, so the quotes are escaped (\"validUntil\":\"…\").
+    # Without this second pass, validUntil inside index.modified.html stays in the past
+    # and the showcase's expiring-resource code tries to refetch every few seconds.
+    text = re.sub(r'\\"validUntil\\"\s*:\s*\\"20\d{2}-\d{2}-\d{2}T', r'\\"validUntil\\":\\"2099-01-01T', text)
+    return text
 
 
 async def downloadGraphModels(pageid):
