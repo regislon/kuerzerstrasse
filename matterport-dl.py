@@ -1023,10 +1023,14 @@ def GenerateMeshImageCrops():
 
     models_dir = "models"
     totalGenned = 0
+    # The "~" subdir in Matterport asset paths is replaced with "_" on macOS/Linux when
+    # --no-tilde is in effect. Use the same substitution the downloader uses so we actually
+    # find the mesh_tiles directory.
+    tilde_dir = "~" if CLA.getCommandLineArg(CommandLineArg.TILDE) else "_"
     for model_id in os.listdir(models_dir):
-        model_path = os.path.join(models_dir, model_id, "assets", "mesh_tiles", "~")
+        model_path = os.path.join(models_dir, model_id, "assets", "mesh_tiles", tilde_dir)
         if not os.path.exists(model_path):
-            return
+            continue  # try the next model; previously this aborted the whole function
 
         for tile_folder in os.listdir(model_path):
             tile_path = os.path.join(model_path, tile_folder)
