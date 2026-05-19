@@ -1,0 +1,454 @@
+{
+  "data" : {
+    "model" : {
+      "id" : "NRvU2vkTCXn",
+      "rooms" : [ {
+        "id" : "fac10mmacdecyd8fn9ph2gbhc",
+        "meshId" : 36,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : null,
+        "tags" : [ ]
+      }, {
+        "id" : "c3ctq0c1byg9mgt7sigxpg6rd",
+        "meshId" : 34,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : null,
+        "tags" : [ ]
+      }, {
+        "id" : "i3emtmx7sim7ifqtsc807qtxa",
+        "meshId" : 30,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : null,
+        "tags" : [ ]
+      }, {
+        "id" : "pksbu53py2kqgiahqc3d44p7d",
+        "meshId" : 32,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : null,
+        "tags" : [ ]
+      }, {
+        "id" : "xwmb36qphpzp9se68715kxfhb",
+        "meshId" : 31,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : null,
+        "tags" : [ ]
+      }, {
+        "id" : "yxhkt9gfk9zcmduwmxx131a6a",
+        "meshId" : 35,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : null,
+        "tags" : [ ]
+      }, {
+        "id" : "613htqkzf66zz7hf7n8kzszed",
+        "meshId" : 2,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.316273262577057,
+          "width" : 14.55781231054306,
+          "depth" : 14.187670583496093,
+          "areaFloor" : 283.62876910610197
+        },
+        "tags" : [ "garage" ]
+      }, {
+        "id" : "cdz3fkt38kae7tapstpt0eaeb",
+        "meshId" : 3,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.480315106134414,
+          "width" : 13.769954648952485,
+          "depth" : 17.220550560016633,
+          "areaFloor" : 259.4885643676758
+        },
+        "tags" : [ "living", "unfurnished" ]
+      }, {
+        "id" : "xy2x8mpaaqknp7q2c3nnbw1ma",
+        "meshId" : 4,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 14.198737336006165,
+          "depth" : 8.743304716386795,
+          "areaFloor" : 144.69910597543716
+        },
+        "tags" : [ "laundry" ]
+      }, {
+        "id" : "tt6gm2a0463x9wmnx7rn6gugc",
+        "meshId" : 5,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 16.914199884757995,
+          "depth" : 7.312344205617904,
+          "areaFloor" : 125.99898337593078
+        },
+        "tags" : [ "staircase" ]
+      }, {
+        "id" : "h26t7ky77ew74yb0pg8qqf5rd",
+        "meshId" : 6,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.38189,
+          "width" : 11.411957279949188,
+          "depth" : 14.030996406173706,
+          "areaFloor" : 175.59903244075775
+        },
+        "tags" : [ "kitchen", "unfurnished" ]
+      }, {
+        "id" : "3m54yff1z7crxaywd8if9rb0d",
+        "meshId" : 7,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.578740212268829,
+          "width" : 13.75898801973343,
+          "depth" : 10.735389002962112,
+          "areaFloor" : 145.0360219089508
+        },
+        "tags" : [ "bedroom", "unfurnished" ]
+      }, {
+        "id" : "2qdmc5i9byxi79ry1pxdkqzea",
+        "meshId" : 8,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 13.972241243038177,
+          "depth" : 5.496834382667542,
+          "areaFloor" : 102.87167187633514
+        },
+        "tags" : [ "hallway" ]
+      }, {
+        "id" : "a5f9age4zzxewres6iqux2emc",
+        "meshId" : 9,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.316273262577057,
+          "width" : 9.394494085741043,
+          "depth" : 11.88504999876976,
+          "areaFloor" : 111.47310352869033
+        },
+        "tags" : [ "utility", "unfurnished" ]
+      }, {
+        "id" : "19ab05tns5h6y4qm42esqqpea",
+        "meshId" : 10,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 8.62908125002861,
+          "depth" : 16.46753111042023,
+          "areaFloor" : 128.22818614616395
+        },
+        "tags" : [ "other", "unfurnished" ]
+      }, {
+        "id" : "m8npxsuk79xy21dd09x9wtped",
+        "meshId" : 11,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 9.123069230356217,
+          "depth" : 5.049147166728973,
+          "areaFloor" : 77.05122454056739
+        },
+        "tags" : [ "laundry" ]
+      }, {
+        "id" : "b4qtykzcazp4iumkamm7y7h2b",
+        "meshId" : 12,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.2834648938655855,
+          "width" : 5.778563723788261,
+          "depth" : 9.803895876064301,
+          "areaFloor" : 72.15687928447723
+        },
+        "tags" : [ "entrance" ]
+      }, {
+        "id" : "ediidma5zg15dufx3n0qyq21a",
+        "meshId" : 13,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.185039787731171,
+          "width" : 6.144994240255356,
+          "depth" : 5.696974974808693,
+          "areaFloor" : 33.13881963624954
+        },
+        "tags" : [ "bathroom" ]
+      }, {
+        "id" : "wbpb7dkfuwnikd1kq2a9hz70a",
+        "meshId" : 14,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 5.40366027381897,
+          "depth" : 6.219631069321633,
+          "areaFloor" : 36.78240003261566
+        },
+        "tags" : [ "staircase" ]
+      }, {
+        "id" : "n81qfe51azs8iexnbqwspye6c",
+        "meshId" : 15,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.447506737422943,
+          "width" : 7.422444626140594,
+          "depth" : 4.381205528140068,
+          "areaFloor" : 38.489552995872494
+        },
+        "tags" : [ "bathroom", "unfurnished" ]
+      }, {
+        "id" : "kuc0fpmsgqxff63egrxrycfud",
+        "meshId" : 16,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 5.9398240171670915,
+          "depth" : null,
+          "areaFloor" : 32.560798526525495
+        },
+        "tags" : [ "utility" ]
+      }, {
+        "id" : "3ygfq6yfyyw3hi9x7u5rm2iqa",
+        "meshId" : 17,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : 7.316273262577057,
+          "width" : 4.294385728311538,
+          "depth" : null,
+          "areaFloor" : 25.0755824706316
+        },
+        "tags" : [ "closet" ]
+      }, {
+        "id" : "b2kez6wsw32fm2x3ui593u3hc",
+        "meshId" : 18,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 3.4121423096084595,
+          "depth" : 3.75396087849617,
+          "areaFloor" : 11.108344214880466
+        },
+        "tags" : [ "bathroom", "unfurnished" ]
+      }, {
+        "id" : "peina19mpqedsku6a3huu38md",
+        "meshId" : 19,
+        "floor" : {
+          "id" : "tsmq1wak12rhgn0mawksxcwcd",
+          "meshId" : 0
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : null,
+          "depth" : null,
+          "areaFloor" : 8.996467534798384
+        },
+        "tags" : [ "bedroom", "unfurnished" ]
+      }, {
+        "id" : "n2yqr30509t7i8whfdf2htwic",
+        "meshId" : 20,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 14.577106381607056,
+          "depth" : 27.25393840564728,
+          "areaFloor" : 471.91627261047364
+        },
+        "tags" : [ "living" ]
+      }, {
+        "id" : "q5n62dpd3mrc1exy2hr84132b",
+        "meshId" : 21,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 14.318982279663086,
+          "depth" : 17.208296407852174,
+          "areaFloor" : 281.6148492631912
+        },
+        "tags" : [ "bedroom" ]
+      }, {
+        "id" : "4mpd3yxnm0wrnpak1ibnr29wc",
+        "meshId" : 22,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : 7.874015530672073,
+          "width" : 9.923737197704314,
+          "depth" : 20.32773922716141,
+          "areaFloor" : 248.47924265174865
+        },
+        "tags" : [ "staircase" ]
+      }, {
+        "id" : "pcez6b4tqeep953kmm04hme9c",
+        "meshId" : 23,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : 8.103674893865586,
+          "width" : 13.251078208675384,
+          "depth" : 12.389101152057648,
+          "areaFloor" : 169.076109615612
+        },
+        "tags" : [ "office" ]
+      }, {
+        "id" : "tyz3uyd99x00wa88mxhmugrxa",
+        "meshId" : 24,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 14.234986660633087,
+          "depth" : 10.441117264108657,
+          "areaFloor" : 133.6693358716011
+        },
+        "tags" : [ "bedroom" ]
+      }, {
+        "id" : "bmpu8rc0bpgc1bruwia8kktzd",
+        "meshId" : 25,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 9.141029627895355,
+          "depth" : 8.482478067798615,
+          "areaFloor" : 67.56822818889617
+        },
+        "tags" : [ "kitchen" ]
+      }, {
+        "id" : "f97s719x9ctqkce19r6s01b5a",
+        "meshId" : 26,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 6.456348342318535,
+          "depth" : 8.557719938783645,
+          "areaFloor" : 59.49853161158561
+        },
+        "tags" : [ "hallway" ]
+      }, {
+        "id" : "g1gkrkdygg4zs5xge8bxfuc1d",
+        "meshId" : 27,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 5.957229043326378,
+          "depth" : 8.971355849218368,
+          "areaFloor" : 56.22738493094444
+        },
+        "tags" : [ "bathroom" ]
+      }, {
+        "id" : "40zku7irh3zwswpnc4emt870d",
+        "meshId" : 28,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : null,
+          "width" : 7.327648989305496,
+          "depth" : 6.005456398854256,
+          "areaFloor" : 46.61522087593078
+        },
+        "tags" : [ "bathroom", "unfurnished" ]
+      }, {
+        "id" : "4zgy5afdb9eadqxq8qmauzh0d",
+        "meshId" : 29,
+        "floor" : {
+          "id" : "pd0i1c4yq9w0y2zsb07ed23sb",
+          "meshId" : 1
+        },
+        "dimensions" : {
+          "height" : 7.939632268095016,
+          "width" : 4.2433232410001755,
+          "depth" : 5.0823337355279925,
+          "areaFloor" : 23.212351438117025
+        },
+        "tags" : [ "hallway" ]
+      } ]
+    }
+  }
+}

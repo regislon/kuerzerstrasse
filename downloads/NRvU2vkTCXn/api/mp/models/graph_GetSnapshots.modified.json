@@ -1,0 +1,1770 @@
+{
+  "data" : {
+    "model" : {
+      "id" : "NRvU2vkTCXn",
+      "assets" : {
+        "photos" : [ {
+          "id" : "aiSp5rJSJUd",
+          "label" : "Bathroom",
+          "classification" : "Bathroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:07Z",
+          "status" : "available",
+          "filename" : "Bathroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/aiSp5rJSJUd/aiSp5rJSJUd-Bathroom.jpg?t=2-d6e1bbc3e6164690d7655bc934e5e2fa69b955e2-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/aiSp5rJSJUd/aiSp5rJSJUd-Bathroom.jpg?t=2-d6e1bbc3e6164690d7655bc934e5e2fa69b955e2-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/aiSp5rJSJUd/aiSp5rJSJUd-Bathroom.jpg?t=2-d6e1bbc3e6164690d7655bc934e5e2fa69b955e2-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 6.34464168548584,
+              "y" : -5.867518901824951,
+              "z" : 1.2449982166290283
+            },
+            "rotation" : {
+              "x" : 0.6220384047632649,
+              "y" : -0.46226236385149005,
+              "z" : 0.37694964348672594,
+              "w" : -0.5072383226749712
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "0t319u7gbtgrwdnrb4qhnretb",
+              "pano" : {
+                "id" : "0t319u7gbtgrwdnrb4qhnretb",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "bGiZrSdAd2q",
+          "label" : "Bathroom",
+          "classification" : "Bathroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:08Z",
+          "status" : "available",
+          "filename" : "Bathroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/bGiZrSdAd2q/bGiZrSdAd2q-Bathroom.jpg?t=2-b7338004119087c636a91d53d7b5e64e342e153a-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/bGiZrSdAd2q/bGiZrSdAd2q-Bathroom.jpg?t=2-b7338004119087c636a91d53d7b5e64e342e153a-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/bGiZrSdAd2q/bGiZrSdAd2q-Bathroom.jpg?t=2-b7338004119087c636a91d53d7b5e64e342e153a-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 9.316193580627441,
+              "y" : -5.779816627502441,
+              "z" : 3.7544033527374268
+            },
+            "rotation" : {
+              "x" : 0.7140310702095172,
+              "y" : 0.3209481239195897,
+              "z" : -0.2550933563971237,
+              "w" : -0.5675202965216966
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "r9m3k4fb5rm1ttkdn5gbg17fb",
+              "pano" : {
+                "id" : "r9m3k4fb5rm1ttkdn5gbg17fb",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "t4aCQSm5euM",
+          "label" : "Kitchen",
+          "classification" : "Kitchen",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:10Z",
+          "status" : "available",
+          "filename" : "Kitchen.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/t4aCQSm5euM/t4aCQSm5euM-Kitchen.jpg?t=2-70f5b6280320c74340ad1b516f807cb0a182dc57-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/t4aCQSm5euM/t4aCQSm5euM-Kitchen.jpg?t=2-70f5b6280320c74340ad1b516f807cb0a182dc57-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/t4aCQSm5euM/t4aCQSm5euM-Kitchen.jpg?t=2-70f5b6280320c74340ad1b516f807cb0a182dc57-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 4.878474712371826,
+              "y" : -1.261365532875061,
+              "z" : 1.246734619140625
+            },
+            "rotation" : {
+              "x" : 0.31202854567847044,
+              "y" : 0.6795409362446457,
+              "z" : -0.6034033086993981,
+              "w" : -0.27706804309860505
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "z0ps7f6acignsnp36mp6r3czd",
+              "pano" : {
+                "id" : "z0ps7f6acignsnp36mp6r3czd",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "NmRyCnqQmmP",
+          "label" : "Living Room",
+          "classification" : "Living Room",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:11Z",
+          "status" : "available",
+          "filename" : "Living-Room.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/NmRyCnqQmmP/NmRyCnqQmmP-Living_Room.jpg?t=2-6d58d391f261e6a4f7de01f7eff7709b4a37daad-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/NmRyCnqQmmP/NmRyCnqQmmP-Living_Room.jpg?t=2-6d58d391f261e6a4f7de01f7eff7709b4a37daad-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/NmRyCnqQmmP/NmRyCnqQmmP-Living_Room.jpg?t=2-6d58d391f261e6a4f7de01f7eff7709b4a37daad-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : -1.3665639162063599,
+              "y" : -5.712010383605957,
+              "z" : 3.7260825634002686
+            },
+            "rotation" : {
+              "x" : 0.590470038374994,
+              "y" : 0.44491137818129967,
+              "z" : -0.4052085317511821,
+              "w" : -0.5377779060705693
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "nkc1c2hhegr3p5zixp2ympr7c",
+              "pano" : {
+                "id" : "nkc1c2hhegr3p5zixp2ympr7c",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "Nq5YLRPJUw2",
+          "label" : "Living Room",
+          "classification" : "Living Room",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:10Z",
+          "status" : "available",
+          "filename" : "Living-Room.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Nq5YLRPJUw2/Nq5YLRPJUw2-Living_Room.jpg?t=2-56f01cf7bebcfd6f97f29cc0279ea67ab3dcb62b-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Nq5YLRPJUw2/Nq5YLRPJUw2-Living_Room.jpg?t=2-56f01cf7bebcfd6f97f29cc0279ea67ab3dcb62b-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Nq5YLRPJUw2/Nq5YLRPJUw2-Living_Room.jpg?t=2-56f01cf7bebcfd6f97f29cc0279ea67ab3dcb62b-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 6.057119846343994,
+              "y" : -2.3096654415130615,
+              "z" : 1.247523546218872
+            },
+            "rotation" : {
+              "x" : 0.5240937432135647,
+              "y" : -0.5240939564553947,
+              "z" : 0.4746849003701829,
+              "w" : -0.47468490037018296
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "ny8ynxu690s313tfsdyfg1zya",
+              "pano" : {
+                "id" : "ny8ynxu690s313tfsdyfg1zya",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "6GyiBHEGct1",
+          "label" : "Kitchen",
+          "classification" : "Kitchen",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:10Z",
+          "status" : "available",
+          "filename" : "Kitchen.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/6GyiBHEGct1/6GyiBHEGct1-Kitchen.jpg?t=2-a02aaff9396527bad93b1f01928cc88761438ee0-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/6GyiBHEGct1/6GyiBHEGct1-Kitchen.jpg?t=2-a02aaff9396527bad93b1f01928cc88761438ee0-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/6GyiBHEGct1/6GyiBHEGct1-Kitchen.jpg?t=2-a02aaff9396527bad93b1f01928cc88761438ee0-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 4.377798080444336,
+              "y" : -2.851911783218384,
+              "z" : 1.2441093921661377
+            },
+            "rotation" : {
+              "x" : 0.6830332610854717,
+              "y" : 0.29782093962787026,
+              "z" : -0.26655387000199093,
+              "w" : -0.6113241622725885
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "0i63nq4pm8yt0178t664xs0uc",
+              "pano" : {
+                "id" : "0i63nq4pm8yt0178t664xs0uc",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "9y9qgCNKFfE",
+          "label" : "Bedroom",
+          "classification" : "Bedroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:09Z",
+          "status" : "available",
+          "filename" : "Bedroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/9y9qgCNKFfE/9y9qgCNKFfE-Bedroom.jpg?t=2-2d6710deff6327dff4e1e41b476bc4f54c20313d-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/9y9qgCNKFfE/9y9qgCNKFfE-Bedroom.jpg?t=2-2d6710deff6327dff4e1e41b476bc4f54c20313d-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/9y9qgCNKFfE/9y9qgCNKFfE-Bedroom.jpg?t=2-2d6710deff6327dff4e1e41b476bc4f54c20313d-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 9.163403511047363,
+              "y" : 0.562952995300293,
+              "z" : 3.7405917644500732
+            },
+            "rotation" : {
+              "x" : 0.26269937293856016,
+              "y" : 0.6931977741882318,
+              "z" : -0.6276114095693024,
+              "w" : -0.23784423364558163
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "ss71i36eik0m8wua3ptn4dnxb",
+              "pano" : {
+                "id" : "ss71i36eik0m8wua3ptn4dnxb",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "pD5oa2QjJ3r",
+          "label" : "Living Room",
+          "classification" : "Living Room",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:10Z",
+          "status" : "available",
+          "filename" : "Living-Room.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/pD5oa2QjJ3r/pD5oa2QjJ3r-Living_Room.jpg?t=2-47798a3074ce1aae1313f7b8b0cd4a4ac95e6f57-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/pD5oa2QjJ3r/pD5oa2QjJ3r-Living_Room.jpg?t=2-47798a3074ce1aae1313f7b8b0cd4a4ac95e6f57-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/pD5oa2QjJ3r/pD5oa2QjJ3r-Living_Room.jpg?t=2-47798a3074ce1aae1313f7b8b0cd4a4ac95e6f57-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 9.492079734802246,
+              "y" : -1.9842065572738647,
+              "z" : 1.2457237243652344
+            },
+            "rotation" : {
+              "x" : 0.22606384083615577,
+              "y" : 0.7083273120699004,
+              "z" : -0.6370483584669514,
+              "w" : -0.20331504391726057
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "pn8fp71d7yzuwsqk8f7rk6x2a",
+              "pano" : {
+                "id" : "pn8fp71d7yzuwsqk8f7rk6x2a",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "C5WMxGCUt8r",
+          "label" : "Office",
+          "classification" : "Office",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:07Z",
+          "status" : "available",
+          "filename" : "Office.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/C5WMxGCUt8r/C5WMxGCUt8r-Office.jpg?t=2-44f8ea821bb5d03d49056e781b50e1ae68049e07-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/C5WMxGCUt8r/C5WMxGCUt8r-Office.jpg?t=2-44f8ea821bb5d03d49056e781b50e1ae68049e07-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/C5WMxGCUt8r/C5WMxGCUt8r-Office.jpg?t=2-44f8ea821bb5d03d49056e781b50e1ae68049e07-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 4.923720836639404,
+              "y" : -1.8139348030090332,
+              "z" : 3.700270891189575
+            },
+            "rotation" : {
+              "x" : 0.677030874323086,
+              "y" : 0.30774195879423505,
+              "z" : -0.2766376104995385,
+              "w" : -0.6086014357302834
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "0s5ktghb21nu5q20egbbbwf6d",
+              "pano" : {
+                "id" : "0s5ktghb21nu5q20egbbbwf6d",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "Fr9NnGhD3Mw",
+          "label" : "Bedroom",
+          "classification" : "Bedroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:08Z",
+          "status" : "available",
+          "filename" : "Bedroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Fr9NnGhD3Mw/Fr9NnGhD3Mw-Bedroom.jpg?t=2-e5494ca6526b0a86691b6982c576c377d17df19d-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Fr9NnGhD3Mw/Fr9NnGhD3Mw-Bedroom.jpg?t=2-e5494ca6526b0a86691b6982c576c377d17df19d-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Fr9NnGhD3Mw/Fr9NnGhD3Mw-Bedroom.jpg?t=2-e5494ca6526b0a86691b6982c576c377d17df19d-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 7.938906192779541,
+              "y" : -8.200180053710938,
+              "z" : 3.716405153274536
+            },
+            "rotation" : {
+              "x" : 0.5386045003005696,
+              "y" : -0.538604707797367,
+              "z" : 0.45815409095390053,
+              "w" : -0.4581540909539006
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "5bharq8gekqmn2g0q5y6t2idc",
+              "pano" : {
+                "id" : "5bharq8gekqmn2g0q5y6t2idc",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "WLAzVAheLH4",
+          "label" : "Garage",
+          "classification" : "Garage",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:06Z",
+          "status" : "available",
+          "filename" : "Garage.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/WLAzVAheLH4/WLAzVAheLH4-Garage.jpg?t=2-fb05af526b755d0c5d66c7c53995d13ccf2bd6aa-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/WLAzVAheLH4/WLAzVAheLH4-Garage.jpg?t=2-fb05af526b755d0c5d66c7c53995d13ccf2bd6aa-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/WLAzVAheLH4/WLAzVAheLH4-Garage.jpg?t=2-fb05af526b755d0c5d66c7c53995d13ccf2bd6aa-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : -1.9720537662506104,
+              "y" : -2.433886766433716,
+              "z" : 1.2472567558288574
+            },
+            "rotation" : {
+              "x" : 0.5274943101494712,
+              "y" : 0.5274941406557621,
+              "z" : -0.470903129073985,
+              "w" : -0.470903129073985
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "i9cpz1b0amzmh1dmntiapusqb",
+              "pano" : {
+                "id" : "i9cpz1b0amzmh1dmntiapusqb",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "f2qyf1A4sZR",
+          "label" : "Bathroom",
+          "classification" : "Bathroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:08Z",
+          "status" : "available",
+          "filename" : "Bathroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/f2qyf1A4sZR/f2qyf1A4sZR-Bathroom.jpg?t=2-637fe067d531c1a6714c10f1dcdbe8ba1b588492-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/f2qyf1A4sZR/f2qyf1A4sZR-Bathroom.jpg?t=2-637fe067d531c1a6714c10f1dcdbe8ba1b588492-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/f2qyf1A4sZR/f2qyf1A4sZR-Bathroom.jpg?t=2-637fe067d531c1a6714c10f1dcdbe8ba1b588492-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 0.5597561001777649,
+              "y" : -1.6531096696853638,
+              "z" : 3.7240002155303955
+            },
+            "rotation" : {
+              "x" : 0.7933533773942139,
+              "y" : -5.988187725084011E-17,
+              "z" : 2.5972878109160788E-17,
+              "w" : -0.6087613544226733
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "16ry5pb7zfw5dnw5sbbt4gcsa",
+              "pano" : {
+                "id" : "16ry5pb7zfw5dnw5sbbt4gcsa",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "uUPftgsKPNk",
+          "label" : "Kitchen",
+          "classification" : "Kitchen",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:09Z",
+          "status" : "available",
+          "filename" : "Kitchen.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/uUPftgsKPNk/uUPftgsKPNk-Kitchen.jpg?t=2-b7710301231230599cc1cb321a23791846d8cf69-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/uUPftgsKPNk/uUPftgsKPNk-Kitchen.jpg?t=2-b7710301231230599cc1cb321a23791846d8cf69-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/uUPftgsKPNk/uUPftgsKPNk-Kitchen.jpg?t=2-b7710301231230599cc1cb321a23791846d8cf69-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 2.5876753330230713,
+              "y" : -8.461370468139648,
+              "z" : 3.718276262283325
+            },
+            "rotation" : {
+              "x" : 0.5539618702283379,
+              "y" : 0.5539618836779652,
+              "z" : -0.4394613210069995,
+              "w" : -0.43946132100699936
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "17ctwus8eh7659m2nknd6921b",
+              "pano" : {
+                "id" : "17ctwus8eh7659m2nknd6921b",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "E6RHcqt9Q9D",
+          "label" : "Bedroom",
+          "classification" : "Bedroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:08Z",
+          "status" : "available",
+          "filename" : "Bedroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/E6RHcqt9Q9D/E6RHcqt9Q9D-Bedroom.jpg?t=2-2042ef8ecd97193cd037d60f36e46be7b9749103-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/E6RHcqt9Q9D/E6RHcqt9Q9D-Bedroom.jpg?t=2-2042ef8ecd97193cd037d60f36e46be7b9749103-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/E6RHcqt9Q9D/E6RHcqt9Q9D-Bedroom.jpg?t=2-2042ef8ecd97193cd037d60f36e46be7b9749103-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 7.863161563873291,
+              "y" : -6.582427501678467,
+              "z" : 1.2312426567077637
+            },
+            "rotation" : {
+              "x" : -0.1906527270780349,
+              "y" : 0.7210836258959695,
+              "z" : -0.6439720130170442,
+              "w" : 0.1702646249438666
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "0d467f9nkz52pfyekwe53it9d",
+              "pano" : {
+                "id" : "0d467f9nkz52pfyekwe53it9d",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "PQmTKPGiGKR",
+          "label" : "Laundry",
+          "classification" : "Laundry",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:06Z",
+          "status" : "available",
+          "filename" : "Laundry.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/PQmTKPGiGKR/PQmTKPGiGKR-Laundry.jpg?t=2-9c9d507da21488a8bca21cfbdd9a5b1c007f3bff-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/PQmTKPGiGKR/PQmTKPGiGKR-Laundry.jpg?t=2-9c9d507da21488a8bca21cfbdd9a5b1c007f3bff-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/PQmTKPGiGKR/PQmTKPGiGKR-Laundry.jpg?t=2-9c9d507da21488a8bca21cfbdd9a5b1c007f3bff-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 4.115787029266357,
+              "y" : -7.7622528076171875,
+              "z" : 1.2106809616088867
+            },
+            "rotation" : {
+              "x" : -0.10457223514241286,
+              "y" : 0.7665348582798881,
+              "z" : -0.6278163717496636,
+              "w" : 0.08564797465135245
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "2sfmyrqh8y26ru9pe80hdkpea",
+              "pano" : {
+                "id" : "2sfmyrqh8y26ru9pe80hdkpea",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "VsgsqDc9r91",
+          "label" : "Dollhouse View",
+          "classification" : "Dollhouse View",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:06Z",
+          "status" : "available",
+          "filename" : "Dollhouse-View.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/VsgsqDc9r91/VsgsqDc9r91-Dollhouse_View.jpg?t=2-b38523ace15972ba05ec648833aa2f6f29c98ee8-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/VsgsqDc9r91/VsgsqDc9r91-Dollhouse_View.jpg?t=2-b38523ace15972ba05ec648833aa2f6f29c98ee8-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/VsgsqDc9r91/VsgsqDc9r91-Dollhouse_View.jpg?t=2-b38523ace15972ba05ec648833aa2f6f29c98ee8-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "dollhouse",
+            "position" : {
+              "x" : 20.05893898010254,
+              "y" : -22.87293815612793,
+              "z" : 15.618260383605957
+            },
+            "rotation" : {
+              "x" : 0.8255700518900708,
+              "y" : 0.31786167317650094,
+              "z" : -0.16753116350734676,
+              "w" : -0.435122254499279
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : null
+          }
+        }, {
+          "id" : "Xs8FrYAUQVs",
+          "label" : "Laundry",
+          "classification" : "Laundry",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:07Z",
+          "status" : "available",
+          "filename" : "Laundry.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Xs8FrYAUQVs/Xs8FrYAUQVs-Laundry.jpg?t=2-bca237f86d831d6901a60e623759bbda4ef42a84-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Xs8FrYAUQVs/Xs8FrYAUQVs-Laundry.jpg?t=2-bca237f86d831d6901a60e623759bbda4ef42a84-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Xs8FrYAUQVs/Xs8FrYAUQVs-Laundry.jpg?t=2-bca237f86d831d6901a60e623759bbda4ef42a84-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : -3.153750419616699,
+              "y" : -7.785715579986572,
+              "z" : 1.2012674808502197
+            },
+            "rotation" : {
+              "x" : 0.5180927525184049,
+              "y" : -0.5540659847445213,
+              "z" : 0.4759467695684929,
+              "w" : -0.44504543895774096
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "rstu0z192n0qq2n2cd10asuwd",
+              "pano" : {
+                "id" : "rstu0z192n0qq2n2cd10asuwd",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "8wtCYQgqeHN",
+          "label" : "Living Room",
+          "classification" : "Living Room",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:11Z",
+          "status" : "available",
+          "filename" : "Living-Room.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/8wtCYQgqeHN/8wtCYQgqeHN-Living_Room.jpg?t=2-a54b55027a466c8bf55fa13c66a182ba78c87ba0-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/8wtCYQgqeHN/8wtCYQgqeHN-Living_Room.jpg?t=2-a54b55027a466c8bf55fa13c66a182ba78c87ba0-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/8wtCYQgqeHN/8wtCYQgqeHN-Living_Room.jpg?t=2-a54b55027a466c8bf55fa13c66a182ba78c87ba0-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : -4.326785564422607,
+              "y" : -4.3192620277404785,
+              "z" : 3.7241175174713135
+            },
+            "rotation" : {
+              "x" : -0.24374943387031808,
+              "y" : 0.6953560033326075,
+              "z" : -0.638003946657678,
+              "w" : 0.22364528691800853
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "1wpsa5fmht7m49y6by5wnxaia",
+              "pano" : {
+                "id" : "1wpsa5fmht7m49y6by5wnxaia",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "ctZgJMiaMAg",
+          "label" : "Bedroom",
+          "classification" : "Bedroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:09Z",
+          "status" : "available",
+          "filename" : "Bedroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ctZgJMiaMAg/ctZgJMiaMAg-Bedroom.jpg?t=2-4cc437b9ea89d69757b6e00540bf7f513a23423b-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ctZgJMiaMAg/ctZgJMiaMAg-Bedroom.jpg?t=2-4cc437b9ea89d69757b6e00540bf7f513a23423b-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ctZgJMiaMAg/ctZgJMiaMAg-Bedroom.jpg?t=2-4cc437b9ea89d69757b6e00540bf7f513a23423b-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 6.979828834533691,
+              "y" : -3.3534021377563477,
+              "z" : 3.7372236251831055
+            },
+            "rotation" : {
+              "x" : 0.6928503505190559,
+              "y" : -0.25892937978325653,
+              "z" : 0.2355924224860098,
+              "w" : -0.6304047632603959
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "9uci8ct5rnx1qa9gf5f0g2wtb",
+              "pano" : {
+                "id" : "9uci8ct5rnx1qa9gf5f0g2wtb",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "T7WixouVwKd",
+          "label" : "Living Room",
+          "classification" : "Living Room",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:11Z",
+          "status" : "available",
+          "filename" : "Living-Room.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/T7WixouVwKd/T7WixouVwKd-Living_Room.jpg?t=2-a2a1e1e8220926e0cc6d37af64b34908257eb660-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/T7WixouVwKd/T7WixouVwKd-Living_Room.jpg?t=2-a2a1e1e8220926e0cc6d37af64b34908257eb660-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/T7WixouVwKd/T7WixouVwKd-Living_Room.jpg?t=2-a2a1e1e8220926e0cc6d37af64b34908257eb660-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : -4.0229268074035645,
+              "y" : -6.499741077423096,
+              "z" : 3.7237253189086914
+            },
+            "rotation" : {
+              "x" : 0.7113023806694219,
+              "y" : -0.18844907883888337,
+              "z" : 0.1734186381059951,
+              "w" : -0.6545700182760843
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "5mwci48d8pdgph7a8p1wn3bmc",
+              "pano" : {
+                "id" : "5mwci48d8pdgph7a8p1wn3bmc",
+                "placement" : "auto"
+              }
+            }
+          }
+        }, {
+          "id" : "VdZCsJwgMxP",
+          "label" : "Bathroom",
+          "classification" : "Bathroom",
+          "category" : "snapshot",
+          "height" : 4320,
+          "width" : 7680,
+          "created" : "2026-04-30T10:52:05Z",
+          "modified" : "2026-04-30T10:52:07Z",
+          "status" : "available",
+          "filename" : "Bathroom.jpg",
+          "format" : "image",
+          "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/VdZCsJwgMxP/VdZCsJwgMxP-Bathroom.jpg?t=2-1e97f29049a19dcf46a282a82439a17afb2d6077-1778613939-1",
+          "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+          "type" : "photo2D",
+          "origin" : "vision",
+          "validUntil":"2099-01-01T19:25:39Z",
+          "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/VdZCsJwgMxP/VdZCsJwgMxP-Bathroom.jpg?t=2-1e97f29049a19dcf46a282a82439a17afb2d6077-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+          "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/VdZCsJwgMxP/VdZCsJwgMxP-Bathroom.jpg?t=2-1e97f29049a19dcf46a282a82439a17afb2d6077-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+          "snapshotLocation" : {
+            "viewMode" : "panorama",
+            "position" : {
+              "x" : 7.638823986053467,
+              "y" : -5.827592372894287,
+              "z" : 1.2497159242630005
+            },
+            "rotation" : {
+              "x" : 0.5609856194388667,
+              "y" : -0.5609854600640733,
+              "z" : 0.430459257443815,
+              "w" : -0.430459257443815
+            },
+            "zoom" : 1.0,
+            "floorVisibility" : [ ],
+            "anchor" : {
+              "id" : "tn1u3f0re6chs1hsaez18xtac",
+              "pano" : {
+                "id" : "tn1u3f0re6chs1hsaez18xtac",
+                "placement" : "auto"
+              }
+            }
+          }
+        } ]
+      },
+      "defurnishedViews" : [ {
+        "model" : {
+          "id" : "qxx30utz13a41mu9kxypfa0ma",
+          "assets" : {
+            "photos" : [ {
+              "id" : "maxcf7viLkY",
+              "label" : "Bedroom Defurnished",
+              "classification" : "Bedroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bedroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/maxcf7viLkY/maxcf7viLkY-Bedroom.jpg?t=2-5b6aeff8af69d8e1df9555b1293d97d02650baf8-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/maxcf7viLkY/maxcf7viLkY-Bedroom.jpg?t=2-5b6aeff8af69d8e1df9555b1293d97d02650baf8-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/maxcf7viLkY/maxcf7viLkY-Bedroom.jpg?t=2-5b6aeff8af69d8e1df9555b1293d97d02650baf8-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 7.863161563873291,
+                  "y" : -6.582427501678467,
+                  "z" : 1.2312426567077637
+                },
+                "rotation" : {
+                  "x" : -0.1906527270780349,
+                  "y" : 0.7210836258959695,
+                  "z" : -0.6439720130170442,
+                  "w" : 0.1702646249438666
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "0d467f9nkz52pfyekwe53it9d",
+                  "pano" : {
+                    "id" : "0d467f9nkz52pfyekwe53it9d",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "rqhTUajpfft",
+              "label" : "Laundry Defurnished",
+              "classification" : "Laundry",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Laundry-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/rqhTUajpfft/rqhTUajpfft-Laundry.jpg?t=2-f8d95c8d980bc559d962c520cbdf85af266a858c-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/rqhTUajpfft/rqhTUajpfft-Laundry.jpg?t=2-f8d95c8d980bc559d962c520cbdf85af266a858c-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/rqhTUajpfft/rqhTUajpfft-Laundry.jpg?t=2-f8d95c8d980bc559d962c520cbdf85af266a858c-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 4.115787029266357,
+                  "y" : -7.7622528076171875,
+                  "z" : 1.2106809616088867
+                },
+                "rotation" : {
+                  "x" : -0.10457223514241286,
+                  "y" : 0.7665348582798881,
+                  "z" : -0.6278163717496636,
+                  "w" : 0.08564797465135245
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "2sfmyrqh8y26ru9pe80hdkpea",
+                  "pano" : {
+                    "id" : "2sfmyrqh8y26ru9pe80hdkpea",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "EGefUUe88up",
+              "label" : "Living Room Defurnished",
+              "classification" : "Living Room",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Living-Room-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/EGefUUe88up/EGefUUe88up-Living_Room.jpg?t=2-9a62d6e8d36497891a8599aadfa45fc4d8f57544-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/EGefUUe88up/EGefUUe88up-Living_Room.jpg?t=2-9a62d6e8d36497891a8599aadfa45fc4d8f57544-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/EGefUUe88up/EGefUUe88up-Living_Room.jpg?t=2-9a62d6e8d36497891a8599aadfa45fc4d8f57544-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : -4.326785564422607,
+                  "y" : -4.3192620277404785,
+                  "z" : 3.7241175174713135
+                },
+                "rotation" : {
+                  "x" : -0.24374943387031808,
+                  "y" : 0.6953560033326075,
+                  "z" : -0.638003946657678,
+                  "w" : 0.22364528691800853
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "1wpsa5fmht7m49y6by5wnxaia",
+                  "pano" : {
+                    "id" : "1wpsa5fmht7m49y6by5wnxaia",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "Ged3q2Bn88T",
+              "label" : "Bedroom Defurnished",
+              "classification" : "Bedroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bedroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Ged3q2Bn88T/Ged3q2Bn88T-Bedroom.jpg?t=2-8b8b4001bdee38208511279438d2c412aba05ec9-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Ged3q2Bn88T/Ged3q2Bn88T-Bedroom.jpg?t=2-8b8b4001bdee38208511279438d2c412aba05ec9-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/Ged3q2Bn88T/Ged3q2Bn88T-Bedroom.jpg?t=2-8b8b4001bdee38208511279438d2c412aba05ec9-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 9.163403511047363,
+                  "y" : 0.562952995300293,
+                  "z" : 3.7405917644500732
+                },
+                "rotation" : {
+                  "x" : 0.26269937293856016,
+                  "y" : 0.6931977741882318,
+                  "z" : -0.6276114095693024,
+                  "w" : -0.23784423364558163
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "ss71i36eik0m8wua3ptn4dnxb",
+                  "pano" : {
+                    "id" : "ss71i36eik0m8wua3ptn4dnxb",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "ZKhKf69LXav",
+              "label" : "Bathroom Defurnished",
+              "classification" : "Bathroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bathroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ZKhKf69LXav/ZKhKf69LXav-Bathroom.jpg?t=2-11e7e44ea0b03e50e1ebdc36dc4aeceed4649ca5-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ZKhKf69LXav/ZKhKf69LXav-Bathroom.jpg?t=2-11e7e44ea0b03e50e1ebdc36dc4aeceed4649ca5-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ZKhKf69LXav/ZKhKf69LXav-Bathroom.jpg?t=2-11e7e44ea0b03e50e1ebdc36dc4aeceed4649ca5-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 9.316193580627441,
+                  "y" : -5.779816627502441,
+                  "z" : 3.7544033527374268
+                },
+                "rotation" : {
+                  "x" : 0.7140310702095172,
+                  "y" : 0.3209481239195897,
+                  "z" : -0.2550933563971237,
+                  "w" : -0.5675202965216966
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "r9m3k4fb5rm1ttkdn5gbg17fb",
+                  "pano" : {
+                    "id" : "r9m3k4fb5rm1ttkdn5gbg17fb",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "y9fg7DMALSE",
+              "label" : "Kitchen Defurnished",
+              "classification" : "Kitchen",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Kitchen-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/y9fg7DMALSE/y9fg7DMALSE-Kitchen.jpg?t=2-d1e77072deddcc29b9aa577ee8cf68cb83dbd067-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/y9fg7DMALSE/y9fg7DMALSE-Kitchen.jpg?t=2-d1e77072deddcc29b9aa577ee8cf68cb83dbd067-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/y9fg7DMALSE/y9fg7DMALSE-Kitchen.jpg?t=2-d1e77072deddcc29b9aa577ee8cf68cb83dbd067-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 4.878474712371826,
+                  "y" : -1.261365532875061,
+                  "z" : 1.246734619140625
+                },
+                "rotation" : {
+                  "x" : 0.31202854567847044,
+                  "y" : 0.6795409362446457,
+                  "z" : -0.6034033086993981,
+                  "w" : -0.27706804309860505
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "z0ps7f6acignsnp36mp6r3czd",
+                  "pano" : {
+                    "id" : "z0ps7f6acignsnp36mp6r3czd",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "QfRmup368MJ",
+              "label" : "Dollhouse View Defurnished",
+              "classification" : "Dollhouse View",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Dollhouse-View-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/QfRmup368MJ/QfRmup368MJ-Dollhouse_View.jpg?t=2-9223410ee46192fb99332204928ba0084759385d-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/QfRmup368MJ/QfRmup368MJ-Dollhouse_View.jpg?t=2-9223410ee46192fb99332204928ba0084759385d-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/QfRmup368MJ/QfRmup368MJ-Dollhouse_View.jpg?t=2-9223410ee46192fb99332204928ba0084759385d-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "dollhouse",
+                "position" : {
+                  "x" : 20.05893898010254,
+                  "y" : -22.87293815612793,
+                  "z" : 15.618260383605957
+                },
+                "rotation" : {
+                  "x" : 0.8255700518900708,
+                  "y" : 0.31786167317650094,
+                  "z" : -0.16753116350734676,
+                  "w" : -0.435122254499279
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : null
+              }
+            }, {
+              "id" : "ST87z33yWvf",
+              "label" : "Bathroom Defurnished",
+              "classification" : "Bathroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bathroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ST87z33yWvf/ST87z33yWvf-Bathroom.jpg?t=2-463e1222bae5d461ba1f0685b7fae11f32288c0f-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ST87z33yWvf/ST87z33yWvf-Bathroom.jpg?t=2-463e1222bae5d461ba1f0685b7fae11f32288c0f-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ST87z33yWvf/ST87z33yWvf-Bathroom.jpg?t=2-463e1222bae5d461ba1f0685b7fae11f32288c0f-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 0.5597561001777649,
+                  "y" : -1.6531096696853638,
+                  "z" : 3.7240002155303955
+                },
+                "rotation" : {
+                  "x" : 0.7933533773942139,
+                  "y" : -5.988187725084011E-17,
+                  "z" : 2.5972878109160788E-17,
+                  "w" : -0.6087613544226733
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "16ry5pb7zfw5dnw5sbbt4gcsa",
+                  "pano" : {
+                    "id" : "16ry5pb7zfw5dnw5sbbt4gcsa",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "WjW9VG2Ao7h",
+              "label" : "Bathroom Defurnished",
+              "classification" : "Bathroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bathroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/WjW9VG2Ao7h/WjW9VG2Ao7h-Bathroom.jpg?t=2-aa129f8611dda31495bc7dbb3ff90fe768687e54-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/WjW9VG2Ao7h/WjW9VG2Ao7h-Bathroom.jpg?t=2-aa129f8611dda31495bc7dbb3ff90fe768687e54-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/WjW9VG2Ao7h/WjW9VG2Ao7h-Bathroom.jpg?t=2-aa129f8611dda31495bc7dbb3ff90fe768687e54-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 6.34464168548584,
+                  "y" : -5.867518901824951,
+                  "z" : 1.2449982166290283
+                },
+                "rotation" : {
+                  "x" : 0.6220384047632649,
+                  "y" : -0.46226236385149005,
+                  "z" : 0.37694964348672594,
+                  "w" : -0.5072383226749712
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "0t319u7gbtgrwdnrb4qhnretb",
+                  "pano" : {
+                    "id" : "0t319u7gbtgrwdnrb4qhnretb",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "2j229KhEzee",
+              "label" : "Living Room Defurnished",
+              "classification" : "Living Room",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Living-Room-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/2j229KhEzee/2j229KhEzee-Living_Room.jpg?t=2-880a8cc0680bcd0d64817df32ce35dec26a8aef9-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/2j229KhEzee/2j229KhEzee-Living_Room.jpg?t=2-880a8cc0680bcd0d64817df32ce35dec26a8aef9-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/2j229KhEzee/2j229KhEzee-Living_Room.jpg?t=2-880a8cc0680bcd0d64817df32ce35dec26a8aef9-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : -4.0229268074035645,
+                  "y" : -6.499741077423096,
+                  "z" : 3.7237253189086914
+                },
+                "rotation" : {
+                  "x" : 0.7113023806694219,
+                  "y" : -0.18844907883888337,
+                  "z" : 0.1734186381059951,
+                  "w" : -0.6545700182760843
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "5mwci48d8pdgph7a8p1wn3bmc",
+                  "pano" : {
+                    "id" : "5mwci48d8pdgph7a8p1wn3bmc",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "nEKHDXoZifq",
+              "label" : "Living Room Defurnished",
+              "classification" : "Living Room",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Living-Room-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/nEKHDXoZifq/nEKHDXoZifq-Living_Room.jpg?t=2-55153ce3ea64b2f78550e4b307e5bdcf6f35fc0d-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/nEKHDXoZifq/nEKHDXoZifq-Living_Room.jpg?t=2-55153ce3ea64b2f78550e4b307e5bdcf6f35fc0d-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/nEKHDXoZifq/nEKHDXoZifq-Living_Room.jpg?t=2-55153ce3ea64b2f78550e4b307e5bdcf6f35fc0d-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 6.057119846343994,
+                  "y" : -2.3096654415130615,
+                  "z" : 1.247523546218872
+                },
+                "rotation" : {
+                  "x" : 0.5240937432135647,
+                  "y" : -0.5240939564553947,
+                  "z" : 0.4746849003701829,
+                  "w" : -0.47468490037018296
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "ny8ynxu690s313tfsdyfg1zya",
+                  "pano" : {
+                    "id" : "ny8ynxu690s313tfsdyfg1zya",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "tUGVVypCYvz",
+              "label" : "Garage Defurnished",
+              "classification" : "Garage",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Garage-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/tUGVVypCYvz/tUGVVypCYvz-Garage.jpg?t=2-d2745fe4636cebca2bc7aa12d508913453f5be6b-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/tUGVVypCYvz/tUGVVypCYvz-Garage.jpg?t=2-d2745fe4636cebca2bc7aa12d508913453f5be6b-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/tUGVVypCYvz/tUGVVypCYvz-Garage.jpg?t=2-d2745fe4636cebca2bc7aa12d508913453f5be6b-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : -1.9720537662506104,
+                  "y" : -2.433886766433716,
+                  "z" : 1.2472567558288574
+                },
+                "rotation" : {
+                  "x" : 0.5274943101494712,
+                  "y" : 0.5274941406557621,
+                  "z" : -0.470903129073985,
+                  "w" : -0.470903129073985
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "i9cpz1b0amzmh1dmntiapusqb",
+                  "pano" : {
+                    "id" : "i9cpz1b0amzmh1dmntiapusqb",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "YgTUyH6GQ1M",
+              "label" : "Office Defurnished",
+              "classification" : "Office",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Office-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/YgTUyH6GQ1M/YgTUyH6GQ1M-Office.jpg?t=2-343d22107b2230991ef37563043b6e710a56673c-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/YgTUyH6GQ1M/YgTUyH6GQ1M-Office.jpg?t=2-343d22107b2230991ef37563043b6e710a56673c-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/YgTUyH6GQ1M/YgTUyH6GQ1M-Office.jpg?t=2-343d22107b2230991ef37563043b6e710a56673c-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 4.923720836639404,
+                  "y" : -1.8139348030090332,
+                  "z" : 3.700270891189575
+                },
+                "rotation" : {
+                  "x" : 0.677030874323086,
+                  "y" : 0.30774195879423505,
+                  "z" : -0.2766376104995385,
+                  "w" : -0.6086014357302834
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "0s5ktghb21nu5q20egbbbwf6d",
+                  "pano" : {
+                    "id" : "0s5ktghb21nu5q20egbbbwf6d",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "ZkWdsbQVK2W",
+              "label" : "Kitchen Defurnished",
+              "classification" : "Kitchen",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Kitchen-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ZkWdsbQVK2W/ZkWdsbQVK2W-Kitchen.jpg?t=2-0fc441cc9184d20074a28b719745ff54494b2f6f-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ZkWdsbQVK2W/ZkWdsbQVK2W-Kitchen.jpg?t=2-0fc441cc9184d20074a28b719745ff54494b2f6f-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ZkWdsbQVK2W/ZkWdsbQVK2W-Kitchen.jpg?t=2-0fc441cc9184d20074a28b719745ff54494b2f6f-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 2.5876753330230713,
+                  "y" : -8.461370468139648,
+                  "z" : 3.718276262283325
+                },
+                "rotation" : {
+                  "x" : 0.5539618702283379,
+                  "y" : 0.5539618836779652,
+                  "z" : -0.4394613210069995,
+                  "w" : -0.43946132100699936
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "17ctwus8eh7659m2nknd6921b",
+                  "pano" : {
+                    "id" : "17ctwus8eh7659m2nknd6921b",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "1sNvdQPHdsU",
+              "label" : "Bathroom Defurnished",
+              "classification" : "Bathroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bathroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/1sNvdQPHdsU/1sNvdQPHdsU-Bathroom.jpg?t=2-c014891b0aceb97f9bf72358659ae4b31c46ec6c-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/1sNvdQPHdsU/1sNvdQPHdsU-Bathroom.jpg?t=2-c014891b0aceb97f9bf72358659ae4b31c46ec6c-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/1sNvdQPHdsU/1sNvdQPHdsU-Bathroom.jpg?t=2-c014891b0aceb97f9bf72358659ae4b31c46ec6c-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 7.638823986053467,
+                  "y" : -5.827592372894287,
+                  "z" : 1.2497159242630005
+                },
+                "rotation" : {
+                  "x" : 0.5609856194388667,
+                  "y" : -0.5609854600640733,
+                  "z" : 0.430459257443815,
+                  "w" : -0.430459257443815
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "tn1u3f0re6chs1hsaez18xtac",
+                  "pano" : {
+                    "id" : "tn1u3f0re6chs1hsaez18xtac",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "4oVphX9SKAX",
+              "label" : "Laundry Defurnished",
+              "classification" : "Laundry",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Laundry-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/4oVphX9SKAX/4oVphX9SKAX-Laundry.jpg?t=2-1d64a7c48691dfe2154695cbde00f6460a6a43f2-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/4oVphX9SKAX/4oVphX9SKAX-Laundry.jpg?t=2-1d64a7c48691dfe2154695cbde00f6460a6a43f2-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/4oVphX9SKAX/4oVphX9SKAX-Laundry.jpg?t=2-1d64a7c48691dfe2154695cbde00f6460a6a43f2-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : -3.153750419616699,
+                  "y" : -7.785715579986572,
+                  "z" : 1.2012674808502197
+                },
+                "rotation" : {
+                  "x" : 0.5180927525184049,
+                  "y" : -0.5540659847445213,
+                  "z" : 0.4759467695684929,
+                  "w" : -0.44504543895774096
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "rstu0z192n0qq2n2cd10asuwd",
+                  "pano" : {
+                    "id" : "rstu0z192n0qq2n2cd10asuwd",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "sFPGEpR6MAm",
+              "label" : "Bedroom Defurnished",
+              "classification" : "Bedroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bedroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/sFPGEpR6MAm/sFPGEpR6MAm-Bedroom.jpg?t=2-12d11ab5540df420a7fe12640fe1e85b083999fa-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/sFPGEpR6MAm/sFPGEpR6MAm-Bedroom.jpg?t=2-12d11ab5540df420a7fe12640fe1e85b083999fa-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/sFPGEpR6MAm/sFPGEpR6MAm-Bedroom.jpg?t=2-12d11ab5540df420a7fe12640fe1e85b083999fa-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 7.938906192779541,
+                  "y" : -8.200180053710938,
+                  "z" : 3.716405153274536
+                },
+                "rotation" : {
+                  "x" : 0.5386045003005696,
+                  "y" : -0.538604707797367,
+                  "z" : 0.45815409095390053,
+                  "w" : -0.4581540909539006
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "5bharq8gekqmn2g0q5y6t2idc",
+                  "pano" : {
+                    "id" : "5bharq8gekqmn2g0q5y6t2idc",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "ERCPefDtstr",
+              "label" : "Living Room Defurnished",
+              "classification" : "Living Room",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Living-Room-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ERCPefDtstr/ERCPefDtstr-Living_Room.jpg?t=2-fbd244b49819b6da3a2e8c36094415bde2bbcac7-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ERCPefDtstr/ERCPefDtstr-Living_Room.jpg?t=2-fbd244b49819b6da3a2e8c36094415bde2bbcac7-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/ERCPefDtstr/ERCPefDtstr-Living_Room.jpg?t=2-fbd244b49819b6da3a2e8c36094415bde2bbcac7-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 9.492079734802246,
+                  "y" : -1.9842065572738647,
+                  "z" : 1.2457237243652344
+                },
+                "rotation" : {
+                  "x" : 0.22606384083615577,
+                  "y" : 0.7083273120699004,
+                  "z" : -0.6370483584669514,
+                  "w" : -0.20331504391726057
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "pn8fp71d7yzuwsqk8f7rk6x2a",
+                  "pano" : {
+                    "id" : "pn8fp71d7yzuwsqk8f7rk6x2a",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "UFKfjT1SUBw",
+              "label" : "Bedroom Defurnished",
+              "classification" : "Bedroom",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Bedroom-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/UFKfjT1SUBw/UFKfjT1SUBw-Bedroom.jpg?t=2-3cced04e2834823f2e7b5818d0f3806fd522e1a2-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/UFKfjT1SUBw/UFKfjT1SUBw-Bedroom.jpg?t=2-3cced04e2834823f2e7b5818d0f3806fd522e1a2-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/UFKfjT1SUBw/UFKfjT1SUBw-Bedroom.jpg?t=2-3cced04e2834823f2e7b5818d0f3806fd522e1a2-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 6.979828834533691,
+                  "y" : -3.3534021377563477,
+                  "z" : 3.7372236251831055
+                },
+                "rotation" : {
+                  "x" : 0.6928503505190559,
+                  "y" : -0.25892937978325653,
+                  "z" : 0.2355924224860098,
+                  "w" : -0.6304047632603959
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "9uci8ct5rnx1qa9gf5f0g2wtb",
+                  "pano" : {
+                    "id" : "9uci8ct5rnx1qa9gf5f0g2wtb",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "5Rw9ZR5wBcF",
+              "label" : "Kitchen Defurnished",
+              "classification" : "Kitchen",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Kitchen-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/5Rw9ZR5wBcF/5Rw9ZR5wBcF-Kitchen.jpg?t=2-adabc72625229546b88b9b0e18e2da72d0fd8111-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/5Rw9ZR5wBcF/5Rw9ZR5wBcF-Kitchen.jpg?t=2-adabc72625229546b88b9b0e18e2da72d0fd8111-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/5Rw9ZR5wBcF/5Rw9ZR5wBcF-Kitchen.jpg?t=2-adabc72625229546b88b9b0e18e2da72d0fd8111-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : 4.377798080444336,
+                  "y" : -2.851911783218384,
+                  "z" : 1.2441093921661377
+                },
+                "rotation" : {
+                  "x" : 0.6830332610854717,
+                  "y" : 0.29782093962787026,
+                  "z" : -0.26655387000199093,
+                  "w" : -0.6113241622725885
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "0i63nq4pm8yt0178t664xs0uc",
+                  "pano" : {
+                    "id" : "0i63nq4pm8yt0178t664xs0uc",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            }, {
+              "id" : "93AWL2PWvLp",
+              "label" : "Living Room Defurnished",
+              "classification" : "Living Room",
+              "category" : "snapshot",
+              "height" : 1620,
+              "width" : 2880,
+              "created" : "2026-04-30T10:52:17Z",
+              "modified" : "2026-04-30T10:52:17Z",
+              "status" : "available",
+              "filename" : "Living-Room-Defurnished.jpg",
+              "format" : "image",
+              "url" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/93AWL2PWvLp/93AWL2PWvLp-Living_Room.jpg?t=2-f1fe19bde603257a20436d2a82c0861dd21f1cdd-1778613939-1",
+              "resolutions" : [ "icon", "thumbnail", "preview", "web", "presentation", "original" ],
+              "type" : "photo2D",
+              "origin" : "vision",
+              "validUntil":"2099-01-01T19:25:39Z",
+              "thumbnailUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/93AWL2PWvLp/93AWL2PWvLp-Living_Room.jpg?t=2-f1fe19bde603257a20436d2a82c0861dd21f1cdd-1778613939-1&width=200&height=140&fit=crop&disable=upscale",
+              "presentationUrl" : "https://cdn-2.matterport.com/apifs/models/NRvU2vkTCXn/images/93AWL2PWvLp/93AWL2PWvLp-Living_Room.jpg?t=2-f1fe19bde603257a20436d2a82c0861dd21f1cdd-1778613939-1&width=1920&height=1080&fit=crop&disable=upscale",
+              "snapshotLocation" : {
+                "viewMode" : "panorama",
+                "position" : {
+                  "x" : -1.3665639162063599,
+                  "y" : -5.712010383605957,
+                  "z" : 3.7260825634002686
+                },
+                "rotation" : {
+                  "x" : 0.590470038374994,
+                  "y" : 0.44491137818129967,
+                  "z" : -0.4052085317511821,
+                  "w" : -0.5377779060705693
+                },
+                "zoom" : 1.0,
+                "floorVisibility" : [ ],
+                "anchor" : {
+                  "id" : "nkc1c2hhegr3p5zixp2ympr7c",
+                  "pano" : {
+                    "id" : "nkc1c2hhegr3p5zixp2ympr7c",
+                    "placement" : "auto"
+                  }
+                }
+              }
+            } ]
+          }
+        }
+      } ]
+    }
+  }
+}

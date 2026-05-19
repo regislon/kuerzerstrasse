@@ -1,0 +1,79 @@
+{
+  "data" : {
+    "model" : {
+      "id" : "NRvU2vkTCXn",
+      "rootModelId" : "NRvU2vkTCXn",
+      "state" : "active",
+      "assets" : {
+        "meshes" : [ {
+          "id" : "meshes/9rrhm4t2x9pp78qxe6znkzfic",
+          "status" : "available",
+          "filename" : "b0e3603c11ef48d18a02ce547741c0cf_50k.dam",
+          "format" : "dam",
+          "resolution" : "50k",
+          "url" : "https://cdn-2.matterport.com/models/95576f89181e4a82945e19caf556bb5b/assets/b0e3603c11ef48d18a02ce547741c0cf_50k.dam?t=2-1c14b44be77779ef2eeb5b3642fd8081dfd725bf-1778613940-1",
+          "validUntil" : "2026-05-12T19:25:40Z",
+          "model" : {
+            "id" : "NRvU2vkTCXn"
+          },
+          "layer" : {
+            "id" : "aaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        } ],
+        "textures" : [ {
+          "id" : "50k-high",
+          "status" : "available",
+          "format" : "jpg",
+          "resolution" : "50k",
+          "quality" : "high",
+          "urlTemplate" : "https://cdn-2.matterport.com/models/95576f89181e4a82945e19caf556bb5b/assets/~/b0e3603c11ef48d18a02ce547741c0cf_50k_texture_jpg_high/b0e3603c11ef48d18a02ce547741c0cf_50k_<texture>.jpg?t=2-cdda974c2b64b88fe98acb9b246543e9b898be78-1778613940-0&k=models%2F95576f89181e4a82945e19caf556bb5b%2Fassets",
+          "validUntil" : "2026-05-12T19:25:40Z",
+          "model" : {
+            "id" : "NRvU2vkTCXn"
+          },
+          "layer" : {
+            "id" : "aaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        }, {
+          "id" : "50k-low",
+          "status" : "available",
+          "format" : "jpg",
+          "resolution" : "50k",
+          "quality" : "low",
+          "urlTemplate" : "https://cdn-2.matterport.com/models/95576f89181e4a82945e19caf556bb5b/assets/~/b0e3603c11ef48d18a02ce547741c0cf_50k_texture_jpg_low/b0e3603c11ef48d18a02ce547741c0cf_50k_<texture>.jpg?t=2-cdda974c2b64b88fe98acb9b246543e9b898be78-1778613940-0&k=models%2F95576f89181e4a82945e19caf556bb5b%2Fassets",
+          "validUntil" : "2026-05-12T19:25:40Z",
+          "model" : {
+            "id" : "NRvU2vkTCXn"
+          },
+          "layer" : {
+            "id" : "aaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        } ],
+        "tilesets" : [ {
+          "status" : "available",
+          "tilesetVersion" : "1.2.0",
+          "url" : "https://cdn-2.matterport.com/models/95576f89181e4a82945e19caf556bb5b/assets/mesh_tiles/~/tileset.json?t=2-6390ad3f2f540b7d09a296b314c60bdd6b651b2d-1778613940-1&k=models%2F95576f89181e4a82945e19caf556bb5b%2Fassets%2Fmesh_tiles",
+          "urlTemplate" : "https://cdn-2.matterport.com/models/95576f89181e4a82945e19caf556bb5b/assets/mesh_tiles/~/<file>?t=2-6390ad3f2f540b7d09a296b314c60bdd6b651b2d-1778613940-1&k=models%2F95576f89181e4a82945e19caf556bb5b%2Fassets%2Fmesh_tiles",
+          "validUntil" : "2026-05-12T19:25:40Z",
+          "tilesetDepth" : 3,
+          "tilesetPreset" : "basic2",
+          "model" : {
+            "id" : "NRvU2vkTCXn"
+          },
+          "layer" : {
+            "id" : "aaaaaaaaaaaaaaaaaaaaaaaaa"
+          }
+        } ]
+      },
+      "lod" : {
+        "options" : [ "lod2" ]
+      },
+      "overlayLayers" : [ ],
+      "defurnishViews" : [ {
+        "model" : {
+          "id" : "qxx30utz13a41mu9kxypfa0ma"
+        }
+      } ]
+    }
+  }
+}

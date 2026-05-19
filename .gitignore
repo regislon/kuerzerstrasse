@@ -1,9 +1,10 @@
 # Project data (model downloads + runtime config — never commit)
-downloads/
-output/
 defaults.json
 cookies.txt
 *.cookies.txt
+
+# Log files (can exceed GitHub's 100 MB file limit)
+*.log
 
 # Python
 __pycache__/
